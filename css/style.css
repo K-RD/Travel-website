@@ -251,3 +251,8 @@ h1, h2, h3{
     /* height: 25rem;
     width: 10rem; */
 }
+
+.nothing{
+    background-color: #263238;
+    color: #f4f4f4;
+}
