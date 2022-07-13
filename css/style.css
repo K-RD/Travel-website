@@ -296,3 +296,12 @@ h1, h2, h3{
 
 /* ######################      About page styling      ########################## */
 
+.about{
+    padding: 5rem 0;
+}
+.about .container h2::after{
+    content: "";
+    display: block;
+    height: 0.5rem;
+    background: #e63946;
+}
