@@ -284,13 +284,16 @@ h1, h2, h3{
 
 .f-wrapper{
     text-align: center;
+    padding: 2rem;
 }
 
 .footer-icon{
     list-style: none;
-    margin: 1em 1em;  
+    margin: 1em 1em;
+    padding: 2em;
 }
 
 .footer-icon li{
     display: inline-block;
+    margin: 0 2em;
 }
