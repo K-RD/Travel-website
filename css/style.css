@@ -65,6 +65,10 @@ h1, h2, h3{
     color: #333;
 }
 
+.bg-dark{
+    background-color: #263238;
+}
+
 .btn{
     display: inline-block;
     padding: 0.5em 1.5em;
@@ -102,20 +106,20 @@ h1, h2, h3{
     position: relative;
 }
 
-.header .nav-bar{
+.nav-bar{
     padding: 1rem;
 }
 
-.header .nav-bar .logo{
+.nav-bar .logo{
     float: left;
 }
 
-.header .nav-items{
+.nav-items{
     float: right;
     margin-top: 1rem;
 }
 
-.header .nav-bar .nav-items .nav-item{
+.nav-bar .nav-items .nav-item{
     display: inline-block;
     padding: 1rem;
     text-transform: uppercase;
@@ -133,7 +137,7 @@ h1, h2, h3{
     border-bottom: 1px solid #f4f4f4;
 }
 /* Adding pseudo element to clear float */
-.header .nav-bar::after{
+.nav-bar::after{
     content: "";
     clear: both;
     display: block;
