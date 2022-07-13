@@ -217,8 +217,8 @@ h1, h2, h3{
 }
 
 
-    /* ################# Features section styling  ###########   */
-
+    /* ################# Features section styling using flex ###########   */
+/* 
 .box-wrapper{
     height: 25rem;
     display: flex;
@@ -233,21 +233,64 @@ h1, h2, h3{
 .box-1{
     background-color: #263238;
     color: #fff;
-    /* float: left; */
-    /* height: 25rem;
-    width: 10rem; */
 }
 .box-2{
     background: linear-gradient(25deg, #d64c7f,#ee4758 50%);
     color: #fff;
-    /* float: left; */
-    /* height: 25rem;
-    width: 10rem; */
 }
 .box-3{
     background-color: #263238;
     color: #fff;
-    /* float: left; */
-    /* height: 25rem;
-    width: 10rem; */
+} */
+
+ /* ################# Features section styling ###########   */
+
+.features{
+    padding: 10rem 0;
+}
+
+.box-wrapper{
+    box-shadow: 5px 5px 10px rgb(102 102 102 / 52%);
+}
+
+.box{
+    width: 33.3333333%;
+    float: left;
+    padding: 2em;
+    text-align: center;
+}
+
+.box-1, .box-3{
+    background-color: #263238;
+    color: #fff;
+}
+
+.box-2{
+    background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+    color: #fff;
+}
+
+.box-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* ############# footer styling ################# */
+
+.footer{
+    background-color: #263238;
+}
+
+.f-wrapper{
+    text-align: center;
+}
+
+.footer-icon{
+    list-style: none;
+    margin: 1em 1em;  
+}
+
+.footer-icon li{
+    display: inline-block;
 }
