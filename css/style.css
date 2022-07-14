@@ -305,3 +305,63 @@ h1, h2, h3{
     height: 0.5rem;
     background: #e63946;
 }
+
+.content-box-wrapper{
+    padding: 1em;
+    display: flex;
+}
+
+.content-box{
+    list-style: none;
+    padding: 0;
+    margin: 1rem rem;
+    text-align: center;
+}
+
+.content-box li{
+    padding-left: 1.3rem;
+}
+
+/* .content-box li::before{
+    content: "\2713"; 
+    font-family: FontAwesome;
+    color: #e63946;
+    display: inline-block;
+    margin-left: -1.3em; 
+    width: 1.3em; 
+} */
+
+.content-box li::before{
+    content: '\2713';
+    color: #e63946;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+.left{
+    flex: 1;
+}
+
+.right{
+    flex: 1;
+}
+
+
+
+.count-item {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.count-item span {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #e63946;
+}
+
+.count-item p {
+    font-weight: 700;
+    color: #555;
+    font-size: 1.8rem;
+}
