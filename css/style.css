@@ -306,62 +306,65 @@ h1, h2, h3{
     background: #e63946;
 }
 
-.content-box-wrapper{
-    padding: 1em;
-    display: flex;
-}
+/* ###############  About wrapper Styling  ################# */
 
-.content-box{
-    list-style: none;
-    padding: 0;
-    margin: 1rem rem;
+.about-wrapper{
     text-align: center;
+    margin-top: 2rem;
 }
 
-.content-box li{
-    padding-left: 1.3rem;
+.about-wrapper .left{
+    float: left;
+    width: 50%;
 }
 
-/* .content-box li::before{
-    content: "\2713"; 
-    font-family: FontAwesome;
-    color: #e63946;
-    display: inline-block;
-    margin-left: -1.3em; 
-    width: 1.3em; 
-} */
+.about-wrapper .right{
+    float: right;
+    width: 50%;
+}
 
-.content-box li::before{
+.about-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.about-wrapper li::before{
     content: '\2713';
     color: #e63946;
-    font-weight: bold;
+    font-weight: 700;
     padding-right: 1rem;
 }
 
-.left{
-    flex: 1;
-}
 
-.right{
-    flex: 1;
-}
+/* ################   Counts Div Styling   ################ */
 
-
-
-.count-item {
-    width: 25%;
+.count-item{
+    border: 2px solid red;
+    display: inline-block;
     float: left;
+    width: 25%;
     text-align: center;
 }
 
-.count-item span {
-    font-size: 3rem;
-    font-weight: 700;
+.count-item span{
     color: #e63946;
+    font-weight: 700;
+    font-size: 3rem;
 }
 
-.count-item p {
-    font-weight: 700;
-    color: #555;
-    font-size: 1.8rem;
+.count-item p{
+    color: #263238;
+    font-weight: 500;
+    font-size: 3rem;
 }
+
+.counts::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+
