@@ -339,9 +339,10 @@ h1, h2, h3{
 
 /* ################   Counts Div Styling   ################ */
 
+.counts{
+    margin-top: 3rem;
+}
 .count-item{
-    border: 2px solid red;
-    display: inline-block;
     float: left;
     width: 25%;
     text-align: center;
@@ -354,9 +355,9 @@ h1, h2, h3{
 }
 
 .count-item p{
-    color: #263238;
-    font-weight: 500;
-    font-size: 3rem;
+    color: #555;
+    font-weight: 700;
+    font-size: 1.8rem;
 }
 
 .counts::after{
