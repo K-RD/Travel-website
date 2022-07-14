@@ -366,6 +366,40 @@ h1, h2, h3{
     clear: both;
 }
 
+/* ##############  Banner Styling  ################ */
 
+.cta-banner{
+    background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    color:#f4f4f4;
+    margin-top: 3rem;
+    padding: 1rem;
+}
+.cta-banner-left{
+    float: left;
+    width: 60%;
+    border: black 1px solid;
+}
 
+.cta-banner-right{
+    float: right;
+    width: 40%;    
+}
 
+.btn-cta{
+    display: inline-block;
+    color: #f4f4f4;
+    border: 0.5rem solid #000000;
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 0.15em;
+    width: 90%;
+    padding: 0.3rem 7.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+}
+.cta-banner::after{
+    content: '';
+    display: block;
+    clear: both;
+}
