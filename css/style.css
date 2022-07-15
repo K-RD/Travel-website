@@ -457,3 +457,22 @@ h1, h2, h3{
     display: block;
     clear: both;
 }
+
+.form{
+    border: px solid blue;
+    float: right;
+    width: 50%;
+}
+.form label{
+    color: #333;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.form input{
+    border-radius: 2rem;
+    color: #e63946;
+    cursor:default;
+    padding: 0 1em;
+    height: 3.5rem;
+}
