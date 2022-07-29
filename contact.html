@@ -23,45 +23,61 @@
     <section class="contact-form">
         <div class="container">
             <div class="form-wrapper">
+
                 <div class="company-address">
                     <div class="address-group address-group-1">
-                        <!-- <i class="fa-solid fa-location-dot text-red fa-4x"></i> -->
+                        <i class="fas fa-map-marker-alt text-red fa-3x"></i>
                         <h2 class="text-grey md-heading">Location</h2>
                         <p>#2611  Nehru Nagar, city name, town name</p>
                     </div>
                     <div class="address-group address-group-2">
-                        <i class="fa-regular fa-envelope text-red fa-4x"></i>
+                        <i class="far fa-envelope text-red fa-3x"></i>
                         <h2 class="text-grey md-heading">Email</h2>
                         <p>creater@gmail.com</p>
                     </div>
                     <div class="address-group address-group-3">
-                        <i class="fa-solid fa-square-phone text-red fa-4x"></i>
+                        <i class="fas fa-phone-square text-red fa-3x"></i>
                         <h2 class="text-grey md-heading">Call</h2>
                         <p>+911234567890</p>
                     </div>
+                    <img src="./img/company-img.jpg" alt="Company Image">
                 </div>
 
                 <form action="" class="form">
-                    <label for="fname">First Name : </label>
-                    <input type="text" name="fname" id="fname" placeholder="   First Name" required><br><br>
+                    <h1 class="lg-heading text-black">Contact Us</h1>
+                    <p class="text-grey">Let us know your questions, suggestions and concerns by filling out the contact form below.</p>
 
-                    <label for="lname">Last Name : </label>
-                    <input type="text" placeholder="    Last Name" name="lname" id="lname" required><br><br>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" name="" id="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Email</label>
+                        <input type="email" name="" id="mail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="text" name="" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="" id="message" > </textarea>
+                    </div>
+                    <button type="submit" class="form-btn">Submit</button>
+                    </form>
 
-                    <label for="fname">Mobile number : </label>
-                    <input type="text" name="" id="" placeholder="    Mobile number"  required><br><br>
-
-                    <label for="email">Email : </label>
-                    <input type="email" name="email" id="email" placeholder="    Email"  required><br><br>
-
-                    <input type="submit" value="Submit">
-
-                    
-
-                </form>
             </div>
         </div>
     </section>
+
+    <footer class="footer">
+        <div class="social-media-links">               
+            <i class="fa-brands fa-facebook text-light fa-4x"></i>
+            <i class="fa-brands fa-twitter text-light fa-4x"></i>
+            <i class="fa-brands fa-instagram text-light fa-4x"></i>
+        </div>   
+        <p class="text-light">World Travel &copy; 2020, All Rights Reserved</p>
+    </footer>
     
 </body>
 </html>
