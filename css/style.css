@@ -529,10 +529,9 @@ h1, h2, h3{
         text-align: center;
     }
     .row{
-        height: 100%;
+        height: auto;
     }
     .box-wrapper{
-        background: #fff;
         box-shadow: none;
     }
     .box-wrapper .box{
@@ -561,8 +560,9 @@ h1, h2, h3{
     .form-wrapper .company-address, .form-wrapper .form{
         float: none;
         width: 100%;
-        height: 100%;
+        height: auto;
         margin-bottom: 5rem;
+        box-shadow: 5px 5px 10px rgb(102 102 102 / 52%);
     }
 }
 
@@ -575,13 +575,51 @@ h1, h2, h3{
     .row .img-box, .row .text-box{
         float: none;
         width: 100%;
-        height: 100%;
+        height: auto;
         text-align: center;
     }
     .row{
-        height: 100%;
+        height: auto;
     }
-    .showcase{
-        padding: 10rem 12rem;
+    .box-wrapper{
+        box-shadow: none;
     }
+    .box-wrapper .box{
+        float: none;
+        width: 100%;
+        margin-bottom: 5rem;
+        border-radius: 2rem;
+        box-shadow: 5px 5px 10px rgb(102 102 102 / 52%);
+    }
+
+    /* ##########      ABOUT PAGE      ###### */
+    .cta-banner .cta-banner-left, .cta-banner .cta-banner-right{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* ##########      CONTACT PAGE      ###### */
+    .form-wrapper .company-address, .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem;
+        box-shadow: 5px 5px 10px rgb(102 102 102 / 52%);
+    }
+}
+
+@media (min-width:769px)and (max-width:1200px){
+    html{
+        font-size: 56.25%;
+    }
+    
+    .row .text-box h2{
+        font-size: 2.2em;
+        font-weight: 500;
+    }
+    .row .text-box p{
+        font-size: 1.6em;
+    } 
 }
