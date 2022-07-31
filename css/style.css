@@ -623,3 +623,9 @@ h1, h2, h3{
         font-size: 1.6em;
     } 
 }
+
+@media(orientation:landscape) and (max-height:500px){
+    .header{
+        height: 90vmax;
+    }
+}
